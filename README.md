@@ -1,3 +1,3 @@
-# rp-io
+# rp-ui
 
 react-component-lib
