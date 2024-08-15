@@ -1,5 +1,5 @@
 {
-  "name": "rp-ui",
+  "name": "rp-react-ui",
   "version": "0.0.1",
   "description": "react component lib",
   "main": "dist/cjs/index.js",
