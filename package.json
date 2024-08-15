@@ -92,8 +92,5 @@
   },
   "peerDependencies": {
     "react": ">=16"
-  },
-  "dependencies": {
-    "rohanpatel-rp-io": "^0.0.1"
   }
 }
