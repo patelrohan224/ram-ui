@@ -44,7 +44,7 @@
   "bugs": {
     "url": "https://github.com/patelrohan224/reactx-component-lib/issues"
   },
-  "homepage": "https://github.com/patelrohan224/reactx-component-lib#readme",
+  "homepage": "https://reactx-component-lib.vercel.app/",
   "devDependencies": {
     "@babel/preset-env": "^7.23.9",
     "@babel/preset-react": "^7.23.3",
