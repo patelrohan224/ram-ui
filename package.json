@@ -1,6 +1,6 @@
 {
   "name": "reactx-component-lib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "reactx component lib is react component library, typescript, javascript",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
