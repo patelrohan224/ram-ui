@@ -1,3 +1,3 @@
-# rp-ui
+# reactx-component-lib
 
 react-component-lib.

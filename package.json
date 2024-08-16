@@ -1,7 +1,7 @@
 {
-  "name": "rp-react-ui",
+  "name": "reactx-component-lib",
   "version": "0.0.1",
-  "description": "react component lib",
+  "description": "reactx component lib is react component library, typescript, javascript",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
@@ -37,14 +37,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patelrohan224/rp-ui.git"
+    "url": "git+https://github.com/patelrohan224/reactx-component-lib.git"
   },
   "author": "rohan patel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/patelrohan224/rp-ui/issues"
+    "url": "https://github.com/patelrohan224/reactx-component-lib/issues"
   },
-  "homepage": "https://github.com/patelrohan224/rp-ui#readme",
+  "homepage": "https://github.com/patelrohan224/reactx-component-lib#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.23.9",
     "@babel/preset-react": "^7.23.3",

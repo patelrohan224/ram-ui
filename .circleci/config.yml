@@ -66,7 +66,7 @@ jobs:
           name: Run release
           command: |
             npm run release
-            git push --follow-tags "https://${GH_TOKEN}@github.com/patelrohan224/rp-ui.git" main
+            git push --follow-tags "https://${GH_TOKEN}@github.com/patelrohan224/reactx-component-lib.git" main
   publish_to_npm:
     executor: node/default
     description: Publish to npm
@@ -76,7 +76,7 @@ jobs:
       - run:
           name: Check if npm version is the same and publish to npm
           command: |
-            CURRENT_VERSION=$(npm show rp-ui version)
+            CURRENT_VERSION=$(npm show reactx-component-lib version)
             LOCAL_VERSION=$(node -pe "require('./package.json').version")
 
             if [ "$CURRENT_VERSION" != "$LOCAL_VERSION" ]; then
