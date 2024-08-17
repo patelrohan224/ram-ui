@@ -8,4 +8,14 @@ interface PageProps {
 
 declare const Page: React$1.FC<PageProps>;
 
-export { Page };
+interface ButtonProps {
+    label: string;
+    onClick: () => void;
+    type?: "button" | "submit" | "reset";
+    disabled?: boolean;
+    variant?: "primary" | "secondary";
+}
+
+declare const Button: React$1.FC<ButtonProps>;
+
+export { Button, Page };

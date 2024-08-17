@@ -5109,5 +5109,40 @@ const Page = ({ title, children }) => {
     return (jsxRuntimeExports.jsxs(Container, { "data-testid": "page-container", children: [jsxRuntimeExports.jsx("h1", { children: title }), jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: children })] }));
 };
 
+const primaryStyle = lt `
+  background-color: #007bff;
+  color: white;
+
+  &:hover:enabled {
+    background-color: #0056b3;
+  }
+`;
+const secondaryStyle = lt `
+  background-color: #6c757d;
+  color: white;
+
+  &:hover:enabled {
+    background-color: #5a6268;
+  }
+`;
+const StyledButton = dt.button `
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  ${({ variant }) => (variant === "primary" ? primaryStyle : secondaryStyle)}
+
+  &:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+`;
+
+const Button = ({ label, onClick, type = "button", disabled = false, variant = "primary" }) => {
+    return (jsxRuntimeExports.jsx(StyledButton, { type: type, onClick: onClick, disabled: disabled, variant: variant, "data-testid": "button", children: label }));
+};
+
+exports.Button = Button;
 exports.Page = Page;
 //# sourceMappingURL=index.js.map
